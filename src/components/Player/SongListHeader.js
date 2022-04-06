@@ -6,7 +6,7 @@ const SongListHeader = () => {
             <div className="index">#</div>
             <div className="name">Title</div>
             <div className="author">Author</div>
-            <div className="name">Collection</div>
+            <div className="name">Album</div>
         </div>
     );
 };
