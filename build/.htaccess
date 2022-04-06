@@ -1,7 +1,0 @@
-<IfModule mod_rewrite.c>
-  # Le digo que siga symlinks
-	Options +FollowSymLinks
-
-  RewriteEngine On
-  
-</IfModule> 
