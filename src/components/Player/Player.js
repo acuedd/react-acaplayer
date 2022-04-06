@@ -60,12 +60,20 @@ const Player = ({
 
     const onBackwardClick = () => {
         if (selectedSongId > 0) {
-            selectSongById(selectedSongId - 1);
+            let index = shuffled
+                ? Math.round(Math.random() * songs.length)
+                : selectedSongId - 1
+
+            selectSongById(index);
         }
     };
     const onForwardClick = () => {
         if (selectedSongId < songs.length - 1) {
-            selectSongById(selectedSongId + 1);
+            let index = shuffled
+                ? Math.round(Math.random() * songs.length)
+                : selectedSongId + 1
+
+            selectSongById(index);
         }
     };
 

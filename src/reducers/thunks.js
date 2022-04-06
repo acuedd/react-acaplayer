@@ -25,7 +25,7 @@ export const loadSongs = () => async dispatch => {
             redirect: 'follow'
         };
 
-        let response = await fetch(URL + "&random_sort=true", requestOptions)
+        let response = await fetch(URL, requestOptions)
         //let response = await axios.post(URL + "&random_sort=true");
         //console.log(response);
         const objResponse = await response.json();
