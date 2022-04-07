@@ -1,7 +1,7 @@
 #song-list {
-    padding-top: 30px;
+    padding-top: 5px;
     grid-column: 5/13;
-    grid-row: 2/8;
+    grid-row: 4/8;
     overflow-y: auto;
     overflow-x: hidden;
     padding-left: 2px;

@@ -33,6 +33,7 @@
   flex-direction: column;
   height: fit-content;
   opacity: 0.7;
+  font-size: xx-large;
 }
 .now-playing > * {
   margin: 12px;
